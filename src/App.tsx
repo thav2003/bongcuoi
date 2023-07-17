@@ -1,17 +1,9 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable jsx-a11y/alt-text */
-import { Carousel, ConfigProvider, Card, Col, Row, Tag, Grid, FloatButton, Affix, Button, Space } from 'antd'
+import { ConfigProvider, Card, Col, Row, Tag, Grid, FloatButton, Affix, Button, Space } from 'antd'
 import { CustomerServiceOutlined, PhoneFilled } from '@ant-design/icons'
-import React, { useState } from 'react'
+import React from 'react'
 import { StyleProvider } from '@ant-design/cssinjs'
-
-const contentStyle: React.CSSProperties = {
-  height: '160px',
-  color: '#fff',
-  lineHeight: '160px',
-  textAlign: 'center',
-  background: '#364d79'
-}
 
 const { Meta } = Card
 const { useBreakpoint } = Grid
